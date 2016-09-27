@@ -18,7 +18,6 @@ int main(void) {
     int data[20] = {0};
     int i = 0;
     while (scanf("%x", &data[i]) != EOF) {
-        printf("%d %d\n", i, data[i]);
         if (i > 15)
             return -1; // Too much data
         if (data[i] > 0xff)

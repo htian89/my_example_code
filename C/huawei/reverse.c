@@ -14,7 +14,7 @@ void reverse(char in[], char out[], int len) {
             out[i] = in[i];
         }
 
-        if (start_reverse_flag && need_reverse_len){
+        if (start_reverse_flag){
             int reversed_len = 0;
             for (; reversed_len < need_reverse_len; reversed_len++) {
                 out[i - need_reverse_len + reversed_len] 

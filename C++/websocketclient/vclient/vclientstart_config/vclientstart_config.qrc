@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>resource/image/about_vCl_logo.png</file>
+        <file>resource/image/corner_left_top.png</file>
+        <file>resource/image/skin_basic.png</file>
+    </qresource>
+</RCC>

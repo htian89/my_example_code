@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=sh /opt/vclient/vclientstart_config.sh
+Icon=/opt/vclient/resource/image/about_vCl_logo.png
+StartupNotify=false
+Terminal=false
+Categories=Setting_Myself;
+OnlyShowIn=XFCE;
+Name=Startup config
+Name[zh_CN]=配置开机启动项

@@ -1,0 +1,2 @@
+cd /opt/vclient
+./vClient &

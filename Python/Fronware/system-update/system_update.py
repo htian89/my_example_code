@@ -2,9 +2,6 @@
 # -*- coding: utf-8 -*-
 
 '''
-Copyright (c) 2014, www.fronware.com
-All rights reserved.
-
 Created on 2014年7月23日
 Author:Herman
 '''

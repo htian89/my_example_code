@@ -4,16 +4,15 @@ Version: 2.0
 Release: 19%{?dist}
 License: BSD
 Group: System Environment/Libraries
-URL: http://www.fronware.com/index.html
 
-Packager: Tian Hao <tianhao@fronware.com>
+Packager: Tian Hao <herman.tian@outlook.com>
 Vendor:  Repository
 
-Source: http://www.fronware.com/download.tcp-usbip/tcp-usbip-%{version}.tar.bz2
+Source: tcp-usbip-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
-tcp-usbip is a fronware software
+Usb device redirection.
 
 %prep
 %setup -q

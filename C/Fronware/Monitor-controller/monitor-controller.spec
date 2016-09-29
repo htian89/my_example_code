@@ -4,16 +4,15 @@ Version: 1.0
 Release: 1%{?dist}
 License: BSD
 Group: System Environment/Libraries
-URL: http://www.fronware.com/index.html
 
-Packager: Tian Hao <tianhao@fronware.com>
+Packager: Tian Hao <herman.tian@outlook.com>
 Vendor:  Repository
 
-Source: http://www.fronware.com/download.tcp-usbip/monitor-controller.tar.bz2
+Source: monitor-controller.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
-monitor-controller is a fronware software
+monitor controller
 
 %prep
 %setup -q -n monitor-controller -c

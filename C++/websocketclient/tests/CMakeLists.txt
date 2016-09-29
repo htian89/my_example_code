@@ -1,2 +1,0 @@
-add_subdirectory(ipcclient)
-add_subdirectory(terminalinfo)

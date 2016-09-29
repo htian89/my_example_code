@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=vClient
-Name[zh_CN]=vClient
-Icon=appointment-soon
-Exec=sh /opt/vclient/start.sh
-Terminal=false
-Type=Application

@@ -1,0 +1,17 @@
+building file list ... done
+./
+b/
+b/bbb
+b/b2/
+b/b2/b3/
+c/
+c/cc
+c/ccc
+d/
+d/ddd
+deleting a/aa
+deleting a/
+deleting b/bb
+
+sent 402 bytes  received 109 bytes  1,022.00 bytes/sec
+total size is 4  speedup is 0.01

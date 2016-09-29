@@ -1,0 +1,8 @@
+#!/bin/sh
+
+PKG_NAME=tcp-usbip
+SRC_DIR=~/rpmbuild/SOURCES
+
+tar jcvf $SRC_DIR/$PKG_NAME-2.0.tar.bz2 ../$PKG_NAME-2.0 --exclude .svn
+rpmbuild -ba $PKG_NAME.spec 
+mv -f ~/rpmbuild/RPMS/$(uname -p)/${PKG_NAME}-2.0*.rpm rpm/

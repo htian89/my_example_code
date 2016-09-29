@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=monitor controller
+Name[zh_CN]=监控控制器
+Icon=appointment-soon
+Exec=/usr/bin/monitor-controller
+Terminal=false
+Type=Application

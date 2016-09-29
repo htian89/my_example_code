@@ -1,0 +1,2 @@
+objs/controller-test.o: controller-test.c ../include/cJSON.h \
+ ../include/types.h

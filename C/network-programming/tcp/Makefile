@@ -1,8 +1,17 @@
 .PHONY: clean
 
-all:
-	gcc socket_client.c -o client
-	gcc socket_server.c -o server
+CC = gcc
+SUFFIX = c
+CFLAGS =
+SRCS = $(wildcard *.$(SUFFIX))
+PROGS = $(patsubst %.$(SUFFIX), %, $(SRCS))
+
+all: $(PROGS)
+
+%: %.$(SUFFIX)
+	$(CC) $(CFLAGS) -o $@.out $<
+	
 
 clean:
-	rm -f client server
+	rm -f *.out
+	#find . -type f ! -name Makefile ! -name "*.cpp" -delete	

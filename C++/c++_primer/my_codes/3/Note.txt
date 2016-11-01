@@ -1,0 +1,6 @@
+1. Headers should not include using declarations.
+2. When we mix strings and string or character literals, at least one operand to 
+   each + operator must be of string type.(For historical reasons, and for 
+   compatibility with C, string literals are not standard library strings.)
+    eg: string s2 = s1 + ", " //ok
+        string s2 = "hello" + ", " //error

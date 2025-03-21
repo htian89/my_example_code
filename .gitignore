@@ -2,3 +2,4 @@ cscope*.out
 *.pyc
 a.out
 *.swp
+.vscode
